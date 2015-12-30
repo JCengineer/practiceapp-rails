@@ -1,0 +1,11 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Home</h1>
+
+<h2>Latest post:</h2>
+<div id="latest_post" style="border:1px solid black;border-radius:15px; padding:25px;text-align:center;">
+	<h3><%= @latest_post.title %></h3>
+	<div><%= @latest_post.content.html_safe %></div>
+	<div><i><%= @latest_post.user.email %></i></div>
+</div>
+<%= link_to "All posts", posts_path %>

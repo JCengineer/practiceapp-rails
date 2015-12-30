@@ -22,6 +22,8 @@ development:
 test:
   <<: *default
   database: practiceapptest
+  user: root
+  password: password
 
 production:
   <<: *default
