@@ -28,10 +28,8 @@ gem 'devise'
 #responders view
 gem 'responders', '~> 2.0'
 
-# Gemfile in Rails >= 3.1
-gem 'activeadmin'
-gem 'sass-rails'
-gem "meta_search", '>= 1.1.0.pre'
+# Gemfile in Rails 
+ gem 'activeadmin', github: 'activeadmin'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
