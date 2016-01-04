@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 
+gem 'bundler', '>= 1.8.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
 # Use sqlite3 as the database for Active Record
@@ -30,6 +31,12 @@ gem 'responders', '~> 2.0'
 
 # Gemfile in Rails 
  gem 'activeadmin', github: 'activeadmin'
+
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-bootstrap'
+  gem 'rails-assets-angular'
+end
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

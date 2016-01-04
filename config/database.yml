@@ -27,4 +27,6 @@ test:
 
 production:
   <<: *default
-  database: practiceappproduction
+  database: practiceapp
+  user: root
+  password: password
